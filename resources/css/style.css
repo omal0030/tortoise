@@ -79,3 +79,112 @@ header {
   font-size: 2rem;
   line-height: 1.2rem;
 }
+
+/* Content - Offerings */
+
+.container-offerings {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 8rem;
+}
+
+.content-box {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.image-box {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  height: 70%;
+  width: 70%;
+}
+
+.text-box {
+  text-align: center;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+  align-items: flex-start;
+}
+
+/* Content - About */
+
+.container-about {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-box {
+  display: block;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.about-box h3 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  max-width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.about-box p {
+  line-height: 1.4rem;
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  background-color: azure;
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+}
+
+footer p {
+  padding-left: 1rem;
+  align-self: center;
+}
+
+/* Media - Tablet */
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Media - Phone */
+
+@media only screen and (max-width: 470px) {
+
+  .text-box p {
+    font-size: 0.77rem;
+  }
+
+
+}
